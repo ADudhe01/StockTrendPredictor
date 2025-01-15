@@ -1,0 +1,35 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment directory
+myenv/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+
+# Ignore logs
+*.log
+
+# Ignore IDE/project files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Ignore TensorFlow and Keras model files (if needed)
+*.h5
+*.pb
+
+# Ignore large library files (if you want to exclude specific files like .dylib)
+myenv/lib/python*/site-packages/clang/native/*
+myenv/lib/python*/site-packages/tensorflow/*
+myenv/lib/python*/site-packages/pyarrow/*
+
+# Ignore data files (if not needed in version control)
+data/
+myenv/
